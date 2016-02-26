@@ -6,16 +6,16 @@
 
 #include "mcpe/world/item/Item.h"
 #include "mcpe/world/level/block/Block.h"
-#include "mcpe/world/item/recipes/Recipe.h"
+//#include "mcpe/world/item/recipes/Recipe.h"
 
-#include "bc/item/Items.h"
+#include "bc/world/item/Items.h"
 //#include "bc/block/Blocks.h"
 //#include "bc/recipes/Recipes.h"
 
 #define LOG_TAG "BuildCraftPE"
 #define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__))
 
-static void (*_Item$CreativeItems)();
+static void (*_Item$initCreativeItems)();
 static void Item$initCreativeItems() {
 	_Item$initCreativeItems();
 	

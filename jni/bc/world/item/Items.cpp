@@ -34,5 +34,5 @@ void Items::initCreativeItems() {
 	Item::addCreativeItem(itemIronGear, 0);
 	Item::addCreativeItem(itemGoldGear, 0);
 	Item::addCreativeItem(itemDiamondGear, 0);
-	Item::addCreativeItem(itemWrenchGear, 0);
+	Item::addCreativeItem(itemWrench , 0);
 }
