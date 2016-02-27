@@ -5,8 +5,6 @@ TODO
 
 Items
 -mapLocationItem
--debuggerItem
--paintbrushItem
 -listItem
 -tabletItem
 
