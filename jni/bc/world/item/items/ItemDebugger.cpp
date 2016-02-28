@@ -1,10 +1,10 @@
-#include "ItemPaintbrush.h"
+#include "ItemDebugger.h"
 
 #include "mcpe/world/item/ItemInstance.h"
 
-ItemPaintbrush::ItemPaintbrush(const std::string& name, short itemId, int type) : Item(name, itemId - 0x100)
+ItemDebugger::ItemDebugger(const std::string& name, short itemId) : Item(name, itemId - 0x100)
 {
 	creativeCategory = 4;
-	setIcon("debugger", type);
+	setIcon("debugger", 0);
 	Item::mItems[itemId] = this;
 }

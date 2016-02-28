@@ -5,6 +5,6 @@
 ItemPaintbrush::ItemPaintbrush(const std::string& name, short itemId, int type) : Item(name, itemId - 0x100)
 {
 	creativeCategory = 4;
-	setIcon("debugger", type);
+	setIcon("paintbrush", type);
 	Item::mItems[itemId] = this;
 }
