@@ -8,6 +8,8 @@ Some Features May Not Be Added!
 
 Items ():
 
+-Debugger
+
 -Paintbrushes
 
 -Wooden Gear
