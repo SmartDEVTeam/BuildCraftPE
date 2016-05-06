@@ -8,6 +8,8 @@ Some Features May Not Be Added!
 
 Items ():
 
+-Paintbrushes
+
 -Wooden Gear
 
 -Stone Gear
