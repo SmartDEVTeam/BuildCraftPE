@@ -1,10 +1,10 @@
 # BuildCraftPE
 This is the first offical port of BuildCraft!
 
-# Warning:
+## Warning:
 Some Features May Not Be Added!
 
-# Everything That Is Done:
+## Everything That Is Done:
 
 Items ():
 -Wooden Gear
