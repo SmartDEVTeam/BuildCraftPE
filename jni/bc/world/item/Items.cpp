@@ -11,6 +11,11 @@
 #include "items/ItemDebugger.h"
 #include "items/ItemPaintbrush.h"
 
+#include "items/ItemBlueprintClean.h"
+#include "items/ItemBlueprintUsed.h"
+#include "items/ItemTemplateClean.h"
+#include "items/ItemTemplateUsed.h"
+
 //BC Core
 Item* Items::itemDebugger;
 Item* Items::itemWoodenGear;
@@ -38,6 +43,12 @@ Item* Items::itemPaintbrushSilver;
 Item* Items::itemPaintbrushWhite;
 Item* Items::itemPaintbrushYellow;
 
+//BC Builders
+Item* Items::itemBlueprintClean;
+Item* Items::itemBlueprintUsed;
+Item* Items::itemTemplateClean;
+Item* Items::itemTemplateUsed;
+
 void Items::initItems() {
 	itemWoodenGear = new ItemWoodenGear(500);
 	itemStoneGear = new ItemStoneGear(501);
@@ -64,6 +75,11 @@ void Items::initItems() {
 	itemPaintbrushSilver = new ItemPaintbrush(522,15);
 	itemPaintbrushWhite = new ItemPaintbrush(523,16);
 	itemPaintbrushYellow = new ItemPaintbrush(524,17);
+	
+	itemBlueprintClean = new ItemBlueprintClean(525);
+	itemBlueprintUsed = new ItemBlueprintUsed(236);
+	itemTemplateClean = new ItemTemplateClean(237);
+	itemTemplateUsed = new ItemtemplateUsed(238);
 	
 	initCreativeItems();
 }
@@ -94,4 +110,9 @@ void Items::initCreativeItems() {
 	Item::addCreativeItem(itemPaintbrushSilver, 0);
 	Item::addCreativeItem(itemPaintbrushWhite, 0);
 	Item::addCreativeItem(itemPaintbrushYellow, 0);
+	
+	Item::addCreativeItem(itemBlueprintClean, 0);
+	Item::addCreativeItem(itemBlueprintUsed, 0);
+	Item::addCreativeItem(itemTemplateClean, 0);
+	Item::addCreativeItem(itemTemplateUsed, 0);
 }

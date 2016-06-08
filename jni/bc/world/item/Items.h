@@ -4,6 +4,7 @@
 
 class Items {
 public:
+	//BC Core
 	static Item* itemDebugger;
 	static Item* itemWoodenGear;
 	static Item* itemStoneGear;
@@ -29,6 +30,12 @@ public:
 	static Item* itemPaintbrushSilver;
 	static Item* itemPaintbrushWhite;
 	static Item* itemPaintbrushYellow;
+	
+	//BC Builders
+	static Item* itemBlueprintClean;
+	static Item* itemBlueprintUsed;
+	static Item* itemTemplateClean;
+	static Item* itemTemplateUsed;
 	
 	static void initItems();
 	static void initCreativeItems();
