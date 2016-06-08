@@ -1,9 +1,8 @@
 #pragma once
 
-#include "mcpe/world/item/Item.h"
+#include "com/minecraftpe/world/item/Item.h"
 
-class ItemGoldGear : public Item
-{
+class ItemGoldGear : public Item{
 public:
-    ItemGoldGear(const std::string&, short);
+	ItemGoldGear(short itemId);
 };

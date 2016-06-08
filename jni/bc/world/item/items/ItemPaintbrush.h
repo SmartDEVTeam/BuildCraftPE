@@ -1,9 +1,8 @@
 #pragma once
 
-#include "mcpe/world/item/Item.h"
+#include "com/mojang/minecraftpe/world/item/Item.h"
 
-class ItemPaintbrush : public Item
-{
+class ItemPaintbrush : public Item {
 public:
-    ItemPaintbrush(const std::string&, short, int);
+    ItemPaintbrush(short, int);
 };

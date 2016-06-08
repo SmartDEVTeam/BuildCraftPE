@@ -1,6 +1,6 @@
 #include "Items.h"
 
-#include "mcpe/world/item/Item.h"
+#include "com/mojang/minecraftpe/world/item/Item.h"
 
 #include "items/ItemWoodenGear.h"
 #include "items/ItemStoneGear.h"
@@ -39,31 +39,31 @@ Item* Items::itemPaintbrushWhite;
 Item* Items::itemPaintbrushYellow;
 
 void Items::initItems() {
-	itemWoodenGear = new ItemWoodenGear("itemWoodenGear", 500);
-	itemStoneGear = new ItemStoneGear("itemStoneGear", 501);
-	itemIronGear = new ItemIronGear("itemIronGear", 502);
-	itemGoldGear = new ItemGoldGear("itemGoldGear", 503);
-	itemDiamondGear = new ItemDiamondGear("itemDiamondGear", 504);
-	itemWrench = new ItemWrench("itemWrench",505);
-	itemDebugger = new ItemDebugger("itemDebugger",506);
-	itemPaintbrushBlack = new ItemPaintbrush("itemPaintbrushBlack",507,0);
-	itemPaintbrushBlue = new ItemPaintbrush("itemPaintbrushBlue",508,1);
-	itemPaintbrushBrown = new ItemPaintbrush("itemPaintbrushBrown",509,2);
-	itemPaintbrushClean = new ItemPaintbrush("itemPaintbrushClean",510,3);
-	itemPaintbrushCyan = new ItemPaintbrush("itemPaintbrushCyan",511,4);
-	itemPaintbrushGray = new ItemPaintbrush("itemPaintbrushGray",512,5);
-	itemPaintbrushGreen = new ItemPaintbrush("itemPaintbrushGreen",513,6);
-	itemPaintbrushLightBlue = new ItemPaintbrush("itemPaintbrushLightBlue",514,7);
-	itemPaintbrushLightGray = new ItemPaintbrush("itemPaintbrushLightGray",515,8);
-	itemPaintbrushLime = new ItemPaintbrush("itemPaintbrushLime",516,9);
-	itemPaintbrushMagenta = new ItemPaintbrush("itemPaintbrushMagenta",517,10);
-	itemPaintbrushOrange = new ItemPaintbrush("itemPaintbrushOrange",518,11);
-	itemPaintbrushPink = new ItemPaintbrush("itemPaintbrushPink",519,12);
-	itemPaintbrushPurple = new ItemPaintbrush("itemPaintbrushPurple",520,13);
-	itemPaintbrushRed = new ItemPaintbrush("itemPaintbrushRed",521,14);
-	itemPaintbrushSilver = new ItemPaintbrush("itemPaintbrushSilver",522,15);
-	itemPaintbrushWhite = new ItemPaintbrush("itemPaintbrushWhite",523,16);
-	itemPaintbrushYellow = new ItemPaintbrush("itemPaintbrushYellow",524,17);
+	itemWoodenGear = new ItemWoodenGear(500);
+	itemStoneGear = new ItemStoneGear(501);
+	itemIronGear = new ItemIronGear(502);
+	itemGoldGear = new ItemGoldGear(503);
+	itemDiamondGear = new ItemDiamondGear(504);
+	itemWrench = new ItemWrench(505);
+	itemDebugger = new ItemDebugger(506);
+	itemPaintbrushBlack = new ItemPaintbrush(507,0);
+	itemPaintbrushBlue = new ItemPaintbrush(508,1);
+	itemPaintbrushBrown = new ItemPaintbrush(509,2);
+	itemPaintbrushClean = new ItemPaintbrush(510,3);
+	itemPaintbrushCyan = new ItemPaintbrush(511,4);
+	itemPaintbrushGray = new ItemPaintbrush(512,5);
+	itemPaintbrushGreen = new ItemPaintbrush(513,6);
+	itemPaintbrushLightBlue = new ItemPaintbrush(514,7);
+	itemPaintbrushLightGray = new ItemPaintbrush(515,8);
+	itemPaintbrushLime = new ItemPaintbrush(516,9);
+	itemPaintbrushMagenta = new ItemPaintbrush(517,10);
+	itemPaintbrushOrange = new ItemPaintbrush(518,11);
+	itemPaintbrushPink = new ItemPaintbrush(519,12);
+	itemPaintbrushPurple = new ItemPaintbrush(520,13);
+	itemPaintbrushRed = new ItemPaintbrush(521,14);
+	itemPaintbrushSilver = new ItemPaintbrush(522,15);
+	itemPaintbrushWhite = new ItemPaintbrush(523,16);
+	itemPaintbrushYellow = new ItemPaintbrush(524,17);
 	
 	initCreativeItems();
 }

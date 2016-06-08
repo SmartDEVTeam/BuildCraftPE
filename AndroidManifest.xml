@@ -15,7 +15,7 @@
     <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.nativelibname"
         android:value="net.crazywolfy23.buildcraftpe"/>
 
-    <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion" android:value="0.14.2"/>
+    <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion" android:value="0.14.3"/>
     </application>
 
 </manifest> 

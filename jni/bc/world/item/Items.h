@@ -1,6 +1,6 @@
 #pragma once
 
-class Item;
+#include "com/mojang/minecraftpe/world/item/Item.h"
 
 class Items {
 public:

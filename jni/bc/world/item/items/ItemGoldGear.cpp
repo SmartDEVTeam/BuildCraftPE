@@ -1,10 +1,8 @@
 #include "ItemGoldGear.h"
 
-#include "mcpe/world/item/ItemInstance.h"
-
-ItemGoldGear::ItemGoldGear(const std::string& name, short itemId) : Item(name, itemId - 0x100)
-{
-	creativeCategory = 4;
-	setIcon("gear", 3);
+ItemGoldGear::ItemGoldGear(short itemId) : Item("GoldGear", itemID - 0x100) {
 	Item::mItems[itemId] = this;
+	creativeCategory = CreativeCategory::ITEMS;
+	setIcon("gear", 3);
+	setMaxStackSize(64);
 }

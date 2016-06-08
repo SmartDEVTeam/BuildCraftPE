@@ -1,9 +1,8 @@
 #pragma once
 
-#include "mcpe/world/item/Item.h"
+#include "com/minecraftpe/world/item/Item.h"
 
-class ItemDebugger : public Item
-{
+class ItemDebugger : public Item{
 public:
-    ItemDebugger(const std::string&, short);
+	ItemDebugger(short itemId);
 };

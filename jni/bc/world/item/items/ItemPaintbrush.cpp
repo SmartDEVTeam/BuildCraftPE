@@ -1,10 +1,10 @@
 #include "ItemPaintbrush.h"
 
-#include "mcpe/world/item/ItemInstance.h"
+#include "com/mojang/minecraftpe/world/item/ItemInstance.h"
 
-ItemPaintbrush::ItemPaintbrush(const std::string& name, short itemId, int type) : Item(name, itemId - 0x100)
-{
-	creativeCategory = 4;
-	setIcon("paintbrush", type);
+ItemPaintbrush::ItemPaintbrush(short itemId, int type) : Item("ItemPaintbrush", itemId - 0x100) {
 	Item::mItems[itemId] = this;
+	creativeCategory = CreativeCategory::ITEMS;
+	setIcon("paintbrush", type);
+	setMaxStackSize(64);
 }
